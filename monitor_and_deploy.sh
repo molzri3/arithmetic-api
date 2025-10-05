@@ -4,7 +4,7 @@
 IMAGE_NAME="arithmetic-api"
 CONTAINER_NAME="arithmetic-api-container"
 PORT=5000
-FILES_TO_WATCH="arithmetic_api.py requirements.txt Dockerfile"
+FILES_TO_WATCH="app.py requirements.txt Dockerfile"
 
 # Function to get file checksums
 get_checksums() {
